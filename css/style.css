@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+p{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+
+header{
+
+
+ background-color: aqua;    
+ border-bottom: 3px solid green;
+
+
+}
+
+section{
+    width: 1400px ;
+    margin-left: auto;
+    margin-right: auto ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+
+.logo{
+    max-width: 10%;
+    flex-basis: 10%;
+}
+
+.logo img{
+
+    width: 100px;
+}
+
+
+.navigation{
+    max-width: 90%;
+    flex-basis: 90%;
+}
+
+.menu{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+
+}
+
+.menu li{
+    
+
+}
+
+.menu li a{
+
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+}
+
+.banner-section{
+    
+    background-color: rgba(0, 0, 0, 0.514);
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-blend-mode: color;
+    
+}
+    
+.banner-section .container{
+
+    min-height: 800px;
+    justify-content: center;
+      
+
+    
+}
+
+.container{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+    
+
+
+}
+
+.container h1{
+
+    font-size: 42px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 10px -10px 12px grey;
+    
+    
+    
+}
+
+
+
+
+
+
+.about-section{} 
+
+.col-2-1{
+    flex-basis: 50%;
+}
+
+.col-2-1 img{
+    max-width: 20px;
+}
